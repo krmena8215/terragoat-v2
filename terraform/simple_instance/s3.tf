@@ -17,5 +17,6 @@ resource "aws_s3_bucket" "dockingbay" {
     git_repo             = "terragoat-v2"
     yor_trace            = "e7b4b6e0-71fa-4fb2-ba5e-df54e0475a6d"
     drift                = "spotted"
+    myprueba             = "driftwork"
   }
 }
