@@ -5,16 +5,15 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  
+  workflow_dispatch:
 
 jobs:
-  yor:
+  yor-job:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-  
     steps:
-      - uses: actions/checkout@v2
-        name: Checkout repo
+      - name: Checkout repo
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - name: Run yor action
