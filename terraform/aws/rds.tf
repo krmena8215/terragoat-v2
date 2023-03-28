@@ -68,6 +68,7 @@ resource "aws_rds_cluster" "app4-rds-cluster" {
     drift                = "spotted"
     myprueba             = "driftwork"
   }
+  iam_database_authentication_enabled = true
 }
 
 resource "aws_rds_cluster" "app5-rds-cluster" {
