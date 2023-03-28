@@ -25,6 +25,7 @@ EOF
     git_org              = "krmena8215"
     git_repo             = "terragoat-v2"
     yor_trace            = "93cfa6f9-a257-40c3-b7dc-3c3686929734"
+    drift                = "spotted"
   }
 }
 
@@ -54,5 +55,6 @@ resource "aws_lambda_function" "analysis_lambda" {
     git_org              = "krmena8215"
     git_repo             = "terragoat-v2"
     yor_trace            = "f7d8bc47-e5d9-4b09-9d8f-e7b9724d826e"
+    drift                = "spotted"
   }
 }

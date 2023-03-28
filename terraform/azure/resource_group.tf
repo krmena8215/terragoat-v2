@@ -10,5 +10,6 @@ resource "azurerm_resource_group" "example" {
     git_org              = "krmena8215"
     git_repo             = "terragoat-v2"
     yor_trace            = "80b3b0ca-e0d8-4266-8a1f-12c71afd7e18"
+    drift                = "spotted"
   }
 }
