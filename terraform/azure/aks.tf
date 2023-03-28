@@ -32,5 +32,6 @@ resource azurerm_kubernetes_cluster "k8s_cluster" {
     git_repo             = "terragoat-v2"
     yor_trace            = "6103d111-864e-42e5-899c-1864de281fd1"
     drift                = "spotted"
+    myprueba             = "driftwork"
   }
 }
