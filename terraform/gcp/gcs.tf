@@ -11,6 +11,7 @@ resource "google_storage_bucket" "terragoat_website" {
     git_org              = "krmena8215"
     git_repo             = "terragoat-v2"
     yor_trace            = "bd00cd2e-f53f-4daf-8d4d-74c47846c1cc"
+    drift                = "spotted"
   }
 }
 

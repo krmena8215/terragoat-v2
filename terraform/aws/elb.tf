@@ -36,5 +36,7 @@ resource "aws_elb" "weblb" {
     git_org              = "krmena8215"
     git_repo             = "terragoat-v2"
     yor_trace            = "b4a83ce9-9a45-43b4-b6d9-1783c282f702"
+    }, {
+    drift = "spotted"
   })
 }

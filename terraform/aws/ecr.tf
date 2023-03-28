@@ -13,6 +13,8 @@ resource aws_ecr_repository "repository" {
     git_org              = "krmena8215"
     git_repo             = "terragoat-v2"
     yor_trace            = "7a3ec657-fa54-4aa2-8467-5d08d6c90bc2"
+    }, {
+    drift = "spotted"
   })
 }
 

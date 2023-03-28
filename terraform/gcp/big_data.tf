@@ -33,5 +33,6 @@ resource "google_bigquery_dataset" "dataset" {
     git_org              = "krmena8215"
     git_repo             = "terragoat-v2"
     yor_trace            = "2560d883-bc3a-4cb6-b9fc-fb666edf626e"
+    drift                = "spotted"
   }
 }

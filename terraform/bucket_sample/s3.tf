@@ -16,5 +16,6 @@ resource "aws_s3_bucket" "bucket_drift" {
     git_org              = "krmena8215"
     git_repo             = "terragoat-v2"
     yor_trace            = "4a14746f-1ea0-4b8c-a0f9-731036c9b3af"
+    drift                = "spotted"
   }
 }
