@@ -2,9 +2,7 @@ name: IaC tag and trace
 
 on:
   push:
-    branches: [ master ]
   pull_request:
-    branches: [ master ]
 
 jobs:
   yor:
